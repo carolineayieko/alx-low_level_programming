@@ -1,11 +1,9 @@
 #include <unistd.h>
 /**
- * main - prints exactly "and that piece of art is useful"
- * - Dora Korpar, 2015-10-19",
- *   follwed by a new line. 
- *   Return: Always 1 (Success)
+ * main - Entry point and prints message given
+ *
+ * Return: Always 1 (Success)
  */
-
 int main(void)
 {
 	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
@@ -13,3 +11,4 @@ int main(void)
 	write(2, str1, 59);
 	return (1);
 }
+
